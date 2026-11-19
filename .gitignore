@@ -1,0 +1,14 @@
+# Whitelist: only the project's own files go into git.
+# DOOM.EXE / DOOM.WAD, badapple.mp4 and everything generated stay local.
+/*
+!/.gitignore
+!/README.md
+!/requirements.txt
+!/build.bat
+!/run_badapple.bat
+!/dosbox_shell.bat
+!/dosbox-badapple.conf
+!/dosbox-shell.conf
+!/BADAPPLE.CFG
+!/tools/
+__pycache__/
